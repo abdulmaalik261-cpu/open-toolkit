@@ -49,7 +49,7 @@ py -m pip install --user open-toolkit
 ### From source (any platform)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/open-toolkit.git
+git clone https://github.com/abdulmaalik261-cpu/open-toolkit.git
 cd open-toolkit
 python3 -m pip install --user -e .
 ```
@@ -97,7 +97,7 @@ toolkit doc2md https://example.com/article -o article.md
 ## Development
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/open-toolkit.git
+git clone https://github.com/abdulmaalik261-cpu/open-toolkit.git
 cd open-toolkit
 python3 -m pip install -e ".[dev]"
 pytest

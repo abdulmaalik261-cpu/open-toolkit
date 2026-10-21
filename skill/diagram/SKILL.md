@@ -6,7 +6,7 @@ description: Generate a Mermaid dependency diagram for a Python codebase. Use wh
 # code-to-diagram
 
 This skill wraps the `toolkit diagram` command from the open-toolkit CLI
-(https://github.com/YOUR_USERNAME/open-toolkit). It walks a directory of
+(https://github.com/abdulmaalik261-cpu/open-toolkit). It walks a directory of
 `.py` files, finds which top-level local packages import which others,
 and emits a Mermaid `graph TD` diagram.
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # One-line installer for open-toolkit on Linux, macOS, or Android (Termux).
-# Usage: curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/open-toolkit/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/abdulmaalik261-cpu/open-toolkit/main/install.sh | bash
 set -euo pipefail
 
 if ! command -v python3 >/dev/null 2>&1; then

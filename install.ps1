@@ -1,5 +1,5 @@
 # One-line installer for open-toolkit on Windows PowerShell.
-# Usage: irm https://raw.githubusercontent.com/YOUR_USERNAME/open-toolkit/main/install.ps1 | iex
+# Usage: irm https://raw.githubusercontent.com/abdulmaalik261-cpu/open-toolkit/main/install.ps1 | iex
 
 $ErrorActionPreference = "Stop"
 
