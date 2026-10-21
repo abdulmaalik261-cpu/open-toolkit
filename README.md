@@ -1,5 +1,9 @@
 # open-toolkit
 
+[![CI](https://github.com/abdulmaalik261-cpu/open-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/abdulmaalik261-cpu/open-toolkit/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)](pyproject.toml)
+
 A single, open-source command-line toolkit that bundles four small, genuinely
 useful utilities into one install. No accounts, no cloud, no tracking — it
 runs entirely on your own machine (or phone).

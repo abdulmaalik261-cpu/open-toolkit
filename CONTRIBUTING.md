@@ -32,4 +32,8 @@ pytest
 ## Reporting bugs / requesting features
 
 Open a GitHub issue with steps to reproduce (for bugs) or the use case
-(for features).
+(for features) — issue templates are provided for both.
+
+## Code of conduct
+
+Be civil. See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
