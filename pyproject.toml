@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-toolkit"
+version = "0.1.0"
+description = "A single open-source CLI bundling four everyday dev tools: code-to-diagram, self-hosted e-signing, an absurd enterprise FizzBuzz, and a doc/URL-to-Markdown converter."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "open-toolkit contributors" }]
+keywords = ["cli", "diagram", "mermaid", "pdf", "signature", "markdown", "scraper", "fizzbuzz"]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+]
+dependencies = [
+  "pypdf>=4.0.0",
+  "reportlab>=4.0.0",
+  "beautifulsoup4>=4.12.0",
+  "markdownify>=0.12.0",
+  "requests>=2.31.0",
+  "python-docx>=1.1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/open-toolkit"
+Issues = "https://github.com/YOUR_USERNAME/open-toolkit/issues"
+
+[project.scripts]
+toolkit = "open_toolkit.cli:main"
+otk = "open_toolkit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["open_toolkit*"]
