@@ -8,6 +8,8 @@ A single, open-source command-line toolkit that bundles four small, genuinely
 useful utilities into one install. No accounts, no cloud, no tracking — it
 runs entirely on your own machine (or phone).
 
+**[Docs site →](https://abdulmaalik261-cpu.github.io/open-toolkit/)**
+
 ```bash
 pip install open-toolkit
 toolkit --help
